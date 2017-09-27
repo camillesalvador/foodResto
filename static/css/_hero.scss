@@ -1,0 +1,49 @@
+header {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  .tagline-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: $accent-color;
+    padding-bottom: 1.25rem;
+    font-family: $crimson-text;
+    a {
+      text-decoration: none;
+      color: $accent-color;
+    }
+    .tagline {
+      font-style: italic;
+      font-size: $base-font-size;
+    }
+    .fa {
+      font-size: $heading-font;
+    }
+  }
+  .book-now {
+    color: $orangy;
+    border: 1px solid $orangy;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $base-font-size;
+    font-family: $monserrat;
+    position: absolute;
+    bottom: 2.5rem; right: 3.125rem;
+    padding: 20px 60px;
+    transition: 0.2s all ease-in;
+    text-decoration: none;
+    &:hover {
+      color: $hero-blue;
+      background-color: $orangy;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .tagline-div {
+    display: none;
+  }
+}
