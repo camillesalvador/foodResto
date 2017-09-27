@@ -9,16 +9,16 @@ const Nav = () => (
     </div>
 
     <div className="nav-links">
-      <Link href="/../">
+      <Link href="/foodResto/">
         <a>Home</a>
       </Link>
-      <Link href="/../about/">
+      <Link href="/foodResto/about/">
         <a>About</a>
       </Link>
-      <Link href="/../menu/">
+      <Link href="/foodResto/menu/">
         <a>Menu</a>
       </Link>
-      <Link href="/../contact/">
+      <Link href="/foodResto/contact/">
         <a>Contact</a>
       </Link>
     </div>
