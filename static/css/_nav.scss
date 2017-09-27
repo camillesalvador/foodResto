@@ -1,0 +1,43 @@
+nav {
+  padding: 3.125rem 2rem;
+  padding-bottom: 0;
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  .fa-bars {
+    display: none;
+  }
+  .nav-logo, .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  h3 {
+    font-size: $heading-font;
+    display: inline;
+    margin-left: 0.9375rem;
+  }
+  .hero-logo {
+    height: 2.1875rem;
+    width: 2.1875rem;
+  }
+  .nav-links {
+    font-size: $base-font-size;
+    a {
+      margin: 0 1rem;
+      text-decoration: none;
+      &:hover {
+        color: $orangy;
+      }
+    }
+    a:last-child {
+      margin-right: 0;
+    }
+    a:first-child {
+      margin-left: 0;
+    }
+  }
+  h3, a {
+    font-family: $monserrat;
+    font-weight: bold;
+  }
+}

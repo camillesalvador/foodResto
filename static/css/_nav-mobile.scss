@@ -1,0 +1,26 @@
+@media screen and (max-width: 880px) {
+  nav .nav-links {
+    display: none;
+  }
+  nav {
+    .fa-bars {
+      display: inline-block;
+      cursor: pointer;
+    }
+    &:hover {
+      display: flex;
+      justify-content: flex-end;
+      .nav-logo {
+        display: none;
+      }
+      .nav-links {
+        display: inline-flex;
+        margin-right: 1rem;
+        a {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
