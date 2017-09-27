@@ -17,11 +17,11 @@ export default() => (
       </div>
 
       <div className="card-container">
-        <Card imgLink="url(../static/images/main-dishes.png)" title="Main Dishes" />
-        <Card imgLink="url(../static/images/soups.png)" title="Soups" />
-        <Card imgLink="url(../static/images/hamburgers.png)" title="Hamburgers" />
-        <Card imgLink="url(../static/images/cupcakes.png)" title="desserts" />
-        <Card imgLink="url(../static/images/barbecue.png)" title="barbecue" />
+        <Card imgLink="url(./static/images/main-dishes.png)" title="Main Dishes" />
+        <Card imgLink="url(./static/images/soups.png)" title="Soups" />
+        <Card imgLink="url(./static/images/hamburgers.png)" title="Hamburgers" />
+        <Card imgLink="url(./static/images/cupcakes.png)" title="desserts" />
+        <Card imgLink="url(./static/images/barbecue.png)" title="barbecue" />
         <Card imgLink="url(../static/images/salads.png)" title="salad" />
       </div>
     </main>

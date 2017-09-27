@@ -22,13 +22,13 @@ export default() => (
       </div>
       <div className="food-card">
         <div className="desserts">
-          <img alt="An image of a desserts" src="../static/images/desserts.png" />
+          <img alt="An image of a desserts" src="./static/images/desserts.png" />
         </div>
         <div className="smoothie">
-          <img alt="An image of a smootie" src="../static/images/smoothie.png" />
+          <img alt="An image of a smootie" src="./static/images/smoothie.png" />
         </div>
         <div className="breakfast">
-          <img alt="An image of a breakfast" src="../static/images/breakfast.png" />
+          <img alt="An image of a breakfast" src="./static/images/breakfast.png" />
         </div>
       </div>
     </section>
@@ -85,7 +85,7 @@ export default() => (
         color: #fff;
       }
       header {
-        background: url("../static/images/hero-img.png") no-repeat center bottom;
+        background: url("./static/images/hero-img.png") no-repeat center bottom;
         background-size: cover;
       }
     `}</style>
