@@ -16,12 +16,12 @@ export default() => (
       </div>
 
       <div className="card-container">
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Bob Paul" />
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Emily White" />
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Carter Green" />
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Jim Port" />
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Lia Sy" />
-        <Card imgLink="url(./static/images/employee.jpeg)" title="Ray Kim" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Bob Paul" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Emily White" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Carter Green" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Jim Port" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Lia Sy" />
+        <Card imgLink="url(../static/images/employee.jpeg)" title="Ray Kim" />
       </div>
     </main>
 

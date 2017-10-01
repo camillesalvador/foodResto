@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome'
 const Nav = () => (
   <nav>
     <div className="nav-logo">
-      <img className="hero-logo" src="../static/images/logo.gif" alt="Gratia Restaurant Logo" />
+      <img className="hero-logo" src="./static/images/logo.gif" alt="Gratia Restaurant Logo" />
       <h3>Gratia</h3>
     </div>
 
